@@ -1,0 +1,81 @@
+.lgn_btn{
+  border:none;
+  background:green;
+  height:50px;
+  width:50px;
+}
+
+ .lgn_btn:hover .l{
+  animation-name:l;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes l{
+  0% {color:red;}
+  25% {color:blue;}
+  50% {color:pink;}
+  75%{color:orange;}
+  100%{color:red;}
+}
+
+
+.lgn_btn:hover .o{
+ animation-name:o;
+ animation-duration:5s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes o{
+ 0% {color:blue;}
+ 25% {color:red;}
+ 50% {color:orange;}
+ 75%{color:pink;}
+ 100%{color:blue;}
+}
+
+
+.lgn_btn:hover .g{
+ animation-name:g;
+ animation-duration:5s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes g{
+ 0% {color:pink;}
+ 25% {color:green;}
+ 50% {color:purple;}
+ 75%{color:blue;}
+ 100%{color:pink;}
+}
+
+
+.lgn_btn:hover .i{
+ animation-name:i;
+ animation-duration:5s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes i{
+ 0% {color:purple;}
+ 25% {color:lightblue;}
+ 50% {color:yellow;}
+ 75%{color:brown;}
+ 100%{color:purple;}
+}
+
+
+
+.lgn_btn:hover .n{
+ animation-name:n;
+ animation-duration:5s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes n{
+ 0% {color:brown;}
+ 25% {color:lightgreen;}
+ 50% {color:blue;}
+ 75%{color:purple;}
+ 100%{color:brown;}
+}
